@@ -1,0 +1,20 @@
+{
+  "name": "ow-no-file-explorer",
+  "version": "1.0.1",
+  "description": "A vulnerable demo application",
+  "homepage": "https://file-exlorer.k8s.openweb.nl/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mxdrenthe/file-explorer/"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "engines": {
+    "node": "18.18.0"
+  },
+  "dependencies": {
+    "express": "4.16.0",
+    "st": "0.2.4"
+  }
+}
